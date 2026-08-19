@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Reveal from "./Reveal";
 import { categories } from "../data/content";
 
+
 export default function ShopByCategory() {
   return (
     <section id="collections" className="section-pad bg-cream">
