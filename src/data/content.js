@@ -61,9 +61,6 @@ export const categories = [
   { name: "Mangalsutra", image: temple },
 ];
 
-// NOTE: the full product catalog now lives in ./products.js — it is the
-// single source of truth used by the home page, /shop, cart, wishlist and
-// checkout so every part of the app stays in sync.
 
 export const promo = {
   eyebrow: "Aurelia Heritage Edit",
