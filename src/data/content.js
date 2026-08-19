@@ -47,7 +47,6 @@ export const trustFeatures = [
   },
 ];
 import flowerRing from "../assets/images/products/flower.jpg";
-import solia from "../assets/images/products/solia.jpg";
 import vintage from "../assets/images/products/vintage.jpg";
 import pendant from "../assets/images/products/pendant.jpg";
 import earring from "../assets/images/products/earring.jpg";
