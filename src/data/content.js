@@ -46,7 +46,6 @@ export const trustFeatures = [
     icon: "refresh",
   },
 ];
-import flowerRing from "../assets/images/products/flower.jpg";
 import vintage from "../assets/images/products/vintage.jpg";
 import pendant from "../assets/images/products/pendant.jpg";
 import earring from "../assets/images/products/earring.jpg";
