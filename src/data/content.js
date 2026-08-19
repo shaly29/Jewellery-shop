@@ -50,10 +50,7 @@ import flowerRing from "../assets/images/products/flower.jpg";
 import solia from "../assets/images/products/solia.jpg";
 import vintage from "../assets/images/products/vintage.jpg";
 import pendant from "../assets/images/products/pendant.jpg";
-import pendant1 from "../assets/images/products/pendant1.jpg";
-import pendant2 from "../assets/images/products/pendant2.jpg";
 import earring from "../assets/images/products/earring.jpg";
-import earring1 from "../assets/images/products/earring2.jpg";
 import bangle from "../assets/images/products/bangle.jpg";
 
 import temple from "../assets/images/products/temple.jpg";
