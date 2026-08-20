@@ -48,7 +48,7 @@ export default function Hero() {
             inset-0
             bg-gradient-to-r
             from-wine
-            via-wine/85
+            via-wine/5
             to-wine/10
           "
         />

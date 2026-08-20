@@ -72,7 +72,7 @@ export default function About() {
               return (
                 <div
                   key={f.title}
-                  className="flex items-start gap-3 rounded-2xl p-4 bg-wine/[0.03]"
+                  className="flex items-start gap-2 lg:gap-3 rounded-2xl p-2 lg:p-4 bg-wine/[0.03]"
                 >
                   <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-wine/10">
                     <Icon className="text-lg text-wine" />
