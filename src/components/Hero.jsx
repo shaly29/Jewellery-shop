@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FiArrowRight } from "react-icons/fi";
 import { GiLotus } from "react-icons/gi";
-import heroImage from "../assets/images/hero/hero.png";
+import heroImage from "../assets/images/hero/hero1.png";
 
 const fadeUp = {
   hidden: {
