@@ -1,6 +1,8 @@
-
 // ---------------------------------------------------------------------------
 // Central content file — all copy + placeholder image URLs live here.
+// X Dream Jewellery brand colors used for tints:
+//   Primary (rose/raspberry pink): #c73051
+//   Secondary (gold):              #d5aa5c
 // Swap picsum.photos URLs for real photography via src/assets/images/...
 // ---------------------------------------------------------------------------
 
@@ -26,8 +28,8 @@ export const nav = [
 
 export const trustFeatures = [
   {
-    title: "Certified Diamonds",
-    desc: "IGI / GIA Certified",
+    title: "Certified Gold & Diamond",
+    desc: "Extensive Quality Checks",
     icon: "gem",
   },
   {
@@ -46,26 +48,26 @@ export const trustFeatures = [
     icon: "refresh",
   },
 ];
+
 import vintage from "../assets/images/products/vintage.jpg";
 import pendant from "../assets/images/products/pendant.jpg";
 import earring from "../assets/images/products/earring.jpg";
 import bangle from "../assets/images/products/bangle.jpg";
-
 import temple from "../assets/images/products/temple.jpg";
+
 export const categories = [
-  { name: "Rings", image: vintage},
+  { name: "Rings", image: vintage },
   { name: "Necklaces", image: pendant },
-  { name: "Earrings", image: earring},
-  { name: "Bangles", image:bangle },
+  { name: "Earrings", image: earring },
+  { name: "Bangles", image: bangle },
   { name: "Mangalsutra", image: temple },
 ];
 
-
 export const promo = {
-  eyebrow: "Aurelia Heritage Edit",
+  eyebrow: "X Dream Heritage Edit",
   heading: "Celebrate Every Occasion",
   paragraph:
-    "Celebrate every occasion with beautifully crafted silk sarees, elegant ethnic wear, and timeless traditional collections — paired perfectly with Aurelia's heritage jewellery.",
+    "Celebrate every occasion with beautifully crafted jewellery — from timeless traditional pieces to modern indowestern designs — X Dream Jewellery is renowned for its magnificent craftsmanship.",
   cta: "Discover The Edit",
   image: img("promo-saree-jewellery", 1400, 900),
 };
@@ -91,8 +93,6 @@ export const footerLinks = {
 
 // export const heroImage = img("./assets/images/hero/hero.png", 900, 1200);
 
-
-
 export const navLinks = [
   { label: "Menu", href: "#products" },
   { label: "About", href: "#about" },
@@ -101,122 +101,155 @@ export const navLinks = [
   { label: "Contact", href: "#footer" },
 ];
 
+// Feature badges shown near the top of the site / trust strip
 export const trustBadges = [
-  { icon: "GiCakeSlice", title: "Since 1985", description: "Four decades of baking tradition." },
-  { icon: "GiWheat", title: "Freshly Baked", description: "Everything baked fresh, daily." },
-  { icon: "GiTruck", title: "Jaffna-wide", description: "Delivery across the peninsula." },
-  { icon: "GiCheckMark", title: "Custom Orders", description: "Cakes made to your occasion." },
+  {
+    icon: "GiDiamondRing",
+    title: "Rare Craftsmanship",
+    description: "Magnificent pieces, expertly made.",
+  },
+  {
+    icon: "GiGoldBar",
+    title: "Certified Gold & Diamond",
+    description: "Highest standard, extensively checked.",
+  },
+  {
+    icon: "GiTruck",
+    title: "Insured Shipping",
+    description: "Delivered safely, fully insured.",
+  },
+  {
+    icon: "GiCheckMark",
+    title: "Custom Designs",
+    description: "Jewellery made for your occasion.",
+  },
 ];
 
 export const whyChooseUs = [
   {
-    icon: "GiCakeSlice",
-    title: "Handcrafted Cakes",
-    description: "Every cake is shaped, iced and decorated by hand for your special occasion.",
-    tint: "#3D8B4E",
+    icon: "GiDiamondRing",
+    title: "Magnificent Craftsmanship",
+    description: "Every piece reflects rare, hand-finished craftsmanship built to last a lifetime.",
+    tint: "#c73051",
   },
   {
-    icon: "GiWheat",
-    title: "Baked Fresh Daily",
-    description: "Buns, doughnuts and short eats come out of the oven fresh every single morning.",
-    tint: "#7A2436",
+    icon: "GiGoldBar",
+    title: "Certified Gold & Diamond",
+    description: "We carry out extensive quality checks to maintain the highest standard of Gold and Diamond.",
+    tint: "#d5aa5c",
   },
   {
     icon: "GiCheckMark",
-    title: "Trusted Since 1985",
-    description: "Four decades of consistent quality have made us Jaffna Town's favourite bakery.",
-    tint: "#3B6FB6",
+    title: "A Pleasing Blend",
+    description: "A pleasing combination of modern and traditional jewellery, designed for every generation.",
+    tint: "#c73051",
   },
   {
-    icon: "GiIsland",
-    title: "Proudly Jaffna",
-    description: "A homegrown Northern Province bakery serving the community for generations.",
-    tint: "#C9633A",
+    icon: "GiFemale",
+    title: "Women's Pride",
+    description: "Jewellery is not just a product — it's considered a woman's pride at X Dream.",
+    tint: "#d5aa5c",
   },
 ];
 
 export const benefits = [
   {
-    icon: "GiCakeSlice",
-    title: "Cakes For Every Occasion",
-    description: "From birthdays to weddings, our custom cakes are designed around your celebration.",
-    tint: "#E11D48",
+    icon: "GiRing",
+    title: "Rings For Every Occasion",
+    description: "From engagements to festivals, our rings are crafted around your celebration.",
+    tint: "#c73051",
   },
   {
-    icon: "GiSandwich",
-    title: "Authentic Jaffna Short Eats",
-    description: "Savoury rolls, patties and bites made the traditional Jaffna way, fresh each day.",
-    tint: "#F97316",
+    icon: "GiNecklace",
+    title: "Traditional & Indowestern",
+    description: "Necklaces and mangalsutras made in traditional and modern indowestern styles.",
+    tint: "#d5aa5c",
   },
   {
-    icon: "GiWheat",
-    title: "Freshly Baked Every Morning",
-    description: "Buns, breads and doughnuts leave our ovens fresh and are baked in small batches.",
-    tint: "#7A2436",
+    icon: "GiGoldBar",
+    title: "Certified Gold & Diamond",
+    description: "Extensive quality checks maintain the highest standard of Gold and Diamond, every time.",
+    tint: "#c73051",
   },
   {
-    icon: "GiHoneycomb",
-    title: "Traditional Sweets",
-    description: "Classic Sri Lankan sweets made with time-honoured recipes passed down since 1985.",
-    tint: "#3B82F6",
+    icon: "GiEarrings",
+    title: "Precious Accessories",
+    description: "Earrings, bangles and accessories that leave an unforgettable experience.",
+    tint: "#d5aa5c",
   },
   {
-    icon: "GiChocolateBar",
-    title: "Catering & Bulk Orders",
-    description: "Special discounts and dedicated support for parties, events and bulk orders.",
-    tint: "#EAB308",
+    icon: "GiPresent",
+    title: "Custom & Bulk Orders",
+    description: "Dedicated support for weddings, festivals and special bulk requirements.",
+    tint: "#c73051",
   },
 ];
 
 export const processSteps = [
   {
     number: "01",
-    icon: "GiWheat",
-    title: "Selecting Ingredients",
-    description: "Quality flour, fresh eggs and dairy sourced daily for every bake.",
+    icon: "GiGoldBar",
+    title: "Sourcing Materials",
+    description: "Only certified Gold and Diamond are sourced for every piece we craft.",
   },
   {
     number: "02",
-    icon: "GiWhisk",
-    title: "Mixing & Kneading",
-    description: "Doughs and batters are prepared fresh in-house every morning.",
+    icon: "GiHammerNails",
+    title: "Design & Craft",
+    description: "Every design is hand-crafted, blending modern and traditional styles.",
   },
   {
     number: "03",
-    icon: "GiCakeSlice",
-    title: "Shaping & Decorating",
-    description: "Cakes are hand-shaped, iced and decorated by our in-house bakers.",
+    icon: "GiDiamondRing",
+    title: "Detailing & Finishing",
+    description: "Pieces are finished with rare craftsmanship and careful attention to detail.",
   },
   {
     number: "04",
-    icon: "GiFire",
-    title: "Baked to Perfection",
-    description: "Every item is baked fresh in small batches for the best taste and texture.",
+    icon: "GiMagnifyingGlass",
+    title: "Extensive Quality Check",
+    description: "Each piece undergoes extensive quality checks for gold and diamond standard.",
   },
   {
     number: "05",
     icon: "GiCheckMark",
-    title: "Quality Check",
-    description: "Each bake is checked for taste, texture and presentation before it leaves the kitchen.",
+    title: "Final Inspection",
+    description: "Every item is inspected for finish, shine and craftsmanship before it leaves.",
   },
   {
     number: "06",
     icon: "GiTruck",
-    title: "Fresh to You",
-    description: "Delivered island-wide or ready for pickup at our Jaffna Town showroom.",
+    title: "Delivered To You",
+    description: "Insured delivery, or ready for pickup at our Toongabbie showroom.",
   },
 ];
 
 export const stats = [
-  { value: 41, suffix: "+", label: "Years of Baking" },
   { value: 10000, suffix: "+", label: "Happy Customers" },
-  { value: 60, suffix: "+", label: "Cakes & Bakes" },
-  { value: 6, suffix: "", label: "Menu Categories" },
+  { value: 100, suffix: "%", label: "Certified Gold & Diamond" },
+  { value: 6, suffix: "", label: "Jewellery Categories" },
+  { value: 1, suffix: "", label: "Toongabbie Showroom" },
 ];
 
 export const aboutFeatures = [
-  { icon: "GiCakeSlice", title: "Since 1985", description: "Four decades of tradition" },
-  { icon: "GiWheat", title: "Baked Fresh", description: "Everything made daily" },
-  { icon: "GiTruck", title: "Jaffna-wide", description: "Delivery across the peninsula" },
-  { icon: "GiCheckMark", title: "Custom Cakes", description: "Designed for your occasion" },
+  {
+    icon: "GiDiamondRing",
+    title: "Rare Craftsmanship",
+    description: "Magnificent, unforgettable pieces",
+  },
+  {
+    icon: "GiGoldBar",
+    title: "Certified Quality",
+    description: "Extensive Gold & Diamond checks",
+  },
+  {
+    icon: "GiNecklace",
+    title: "Modern & Traditional",
+    description: "A pleasing blend of both styles",
+  },
+  {
+    icon: "GiFemale",
+    title: "Women's Pride",
+    description: "Jewellery made for feminine beauty",
+  },
 ];

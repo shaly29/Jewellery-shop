@@ -24,6 +24,7 @@ export default {
         blush: "#FBEEF1",
         cream: "#FDF8F3",
         ink: "#2B0F17",
+        muted: "#6B5A5E",
       },
       fontFamily: {
         display: ["'Playfair Display'", "serif"],

@@ -8,10 +8,10 @@ import {
   FiMapPin,
   FiUser,
 } from "react-icons/fi";
-import { GiLotus } from "react-icons/gi";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { nav, topBar } from "../data/content";
 import { useCart } from "../context/CartContext";
+import logo from "../assets/images/logo.jpg";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -110,13 +110,18 @@ export default function Navbar() {
             onClick={() => handleNavClick("#home")}
             className="flex items-center gap-2.5 shrink-0"
           >
-            <GiLotus className="text-gold text-3xl" />
+            {/* X Dream Jewellery logo image — replaces the GiLotus icon */}
+            <img
+              src={logo}
+              alt="X Dream Jewellery logo"
+              className="h-9 sm:h-10 w-auto "
+            />
             <span className="flex flex-col leading-none">
               <span className="font-display text-xl sm:text-2xl tracking-[0.15em] text-white">
-                AURELIA
+                X DREAM
               </span>
               <span className="text-[9px] sm:text-[10px] tracking-[0.35em] text-gold-light mt-0.5">
-                FINE JEWELLERY
+                JEWELLERY
               </span>
             </span>
           </Link>
@@ -239,8 +244,15 @@ export default function Navbar() {
               className="fixed top-0 right-0 h-full w-[78%] max-w-sm bg-wine shadow-2xl lg:hidden flex flex-col"
             >
               <div className="flex items-center justify-between px-6 py-5 border-b border-white/10">
-                <span className="font-display text-xl tracking-widest text-white">
-                  AURELIA
+                <span className="flex items-center gap-2">
+                  <img
+                    src={logo}
+                    alt="X Dream Jewellery logo"
+                    className="h-8 w-auto "
+                  />
+                  <span className="font-display text-xl tracking-widest text-white">
+                    X DREAM
+                  </span>
                 </span>
                 <button
                   aria-label="Close menu"
