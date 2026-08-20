@@ -7,7 +7,7 @@ import {
 } from "react-icons/fi";
 import { FaPinterestP, FaYoutube } from "react-icons/fa";
 import { footerLinks } from "../data/content";
-import logo from "../assets/images/logo.jpg";
+import logo from "../assets/images/logo.png";
 
 const socials = [
   { icon: FiFacebook, href: "https://web.facebook.com/xdreamjewellery?_rdc=1&_rdr#", label: "Facebook" },
@@ -30,14 +30,7 @@ export default function Footer() {
               alt="X Dream Jewellery logo"
               className="h-10 w-auto "
             />
-            <span className="flex flex-col leading-none">
-              <span className="font-display text-lg tracking-[0.15em] text-white">
-                X DREAM
-              </span>
-              <span className="text-[8px] tracking-[0.3em] text-gold-light mt-0.5">
-                JEWELLERY
-              </span>
-            </span>
+          
           </a>
           <p className="mt-4 text-sm leading-relaxed max-w-xs">
             X Dream jewellery is renowned for its magnificent pieces and rare

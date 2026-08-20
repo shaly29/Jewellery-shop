@@ -11,7 +11,7 @@ import {
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { nav, topBar } from "../data/content";
 import { useCart } from "../context/CartContext";
-import logo from "../assets/images/logo.jpg";
+import logo from "../assets/images/logo.png";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -116,14 +116,7 @@ export default function Navbar() {
               alt="X Dream Jewellery logo"
               className="h-9 sm:h-10 w-auto "
             />
-            <span className="flex flex-col leading-none">
-              <span className="font-display text-xl sm:text-2xl tracking-[0.15em] text-white">
-                X DREAM
-              </span>
-              <span className="text-[9px] sm:text-[10px] tracking-[0.35em] text-gold-light mt-0.5">
-                JEWELLERY
-              </span>
-            </span>
+          
           </Link>
 
           <ul className="hidden lg:flex items-center gap-8">
@@ -250,9 +243,7 @@ export default function Navbar() {
                     alt="X Dream Jewellery logo"
                     className="h-8 w-auto "
                   />
-                  <span className="font-display text-xl tracking-widest text-white">
-                    X DREAM
-                  </span>
+                
                 </span>
                 <button
                   aria-label="Close menu"
@@ -262,7 +253,7 @@ export default function Navbar() {
                   <HiX className="w-5 h-5" />
                 </button>
               </div>
-              <ul className="flex flex-col px-6 py-8 gap-1">
+              <ul className="flex flex-col px-6 py-1 gap-1">
                 {nav.map((item, i) => (
                   <motion.li
                     key={item.label}
@@ -273,7 +264,7 @@ export default function Navbar() {
                     <NavItem
                       item={item}
                       onClick={() => handleNavClick(item.href)}
-                      className="block py-3 text-lg text-white/85 hover:text-gold-light border-b border-white/10"
+                      className="block py-1 text-lg text-white/85 hover:text-gold-light border-b border-white/10"
                     />
                   </motion.li>
                 ))}
@@ -285,14 +276,14 @@ export default function Navbar() {
                   <Link
                     to="/wishlist"
                     onClick={() => setOpen(false)}
-                    className="flex items-center justify-between py-3 text-lg text-white/85 hover:text-gold-light border-b border-white/10"
+                    className="flex items-center justify-between py-1 text-lg text-white/85 hover:text-gold-light border-b border-white/10"
                   >
                     Wishlist
-                    {wishlistCount > 0 && (
-                      <span className="grid place-items-center min-w-5 h-5 px-1 rounded-full bg-gold text-[10px] font-bold text-wine-900">
-                        {wishlistCount}
-                      </span>
-                    )}
+                   {wishlistCount > 0 && (
+  <span className="flex items-center justify-center min-w-5 h-5 px-1 rounded-full bg-gold text-[10px] font-bold text-wine-900 leading-none">
+    {wishlistCount}
+  </span>
+)}
                   </Link>
                 </motion.li>
               </ul>
