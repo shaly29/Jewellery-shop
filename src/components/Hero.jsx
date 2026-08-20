@@ -190,7 +190,7 @@ export default function Hero() {
             custom={0.1}
             variants={fadeUp}
             className="
-              mt-5
+              mt-4
               font-display
               text-5xl
               sm:text-6xl
@@ -205,7 +205,6 @@ export default function Hero() {
             Elegance
             <br />
             That Lasts
-
             <span
               className="
                 block
@@ -231,7 +230,7 @@ export default function Hero() {
             custom={0.28}
             variants={fadeUp}
             className="
-              mt-8
+              mt-4
               flex
               items-center
               justify-start
@@ -253,7 +252,7 @@ export default function Hero() {
             custom={0.36}
             variants={fadeUp}
             className="
-              mt-7
+              mt-4
               max-w-lg
               text-base
               sm:text-lg
@@ -271,7 +270,7 @@ export default function Hero() {
             animate="show"
             custom={0.48}
             variants={fadeUp}
-            className="mt-9"
+            className="mt-4"
           >
             <a
               href="#shop"
@@ -281,7 +280,7 @@ export default function Hero() {
                 justify-center
                 gap-3
                 bg-gold
-                px-8
+                px-6
                 py-4
                 text-sm
                 font-semibold
@@ -320,4 +319,3 @@ export default function Hero() {
     </section>
   );
 }
-

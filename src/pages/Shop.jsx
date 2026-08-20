@@ -205,7 +205,7 @@ export default function Shop() {
               </div>
             </div>
 
-            <div className="mt-7">
+            <div className="mt-4">
               <p className="text-xs font-semibold uppercase tracking-widest text-wine/50 mb-3">
                 Max Price: ${maxPrice.toLocaleString()}
               </p>

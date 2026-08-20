@@ -1,4 +1,10 @@
-import { FiFacebook, FiInstagram, FiPhone, FiMail, FiMapPin } from "react-icons/fi";
+import {
+  FiFacebook,
+  FiInstagram,
+  FiPhone,
+  FiMail,
+  FiMapPin,
+} from "react-icons/fi";
 import { FaPinterestP, FaYoutube } from "react-icons/fa";
 import { GiLotus } from "react-icons/gi";
 import { footerLinks } from "../data/content";
@@ -26,11 +32,11 @@ export default function Footer() {
               </span>
             </span>
           </a>
-          <p className="mt-5 text-sm leading-relaxed max-w-xs">
-            Timeless Beauty. Endless Memories. Handcrafted jewellery for
-            life's most precious occasions.
+          <p className="mt-4 text-sm leading-relaxed max-w-xs">
+            Timeless Beauty. Endless Memories. Handcrafted jewellery for life's
+            most precious occasions.
           </p>
-          <div className="mt-6 flex gap-3">
+          <div className="mt-4 flex gap-3">
             {socials.map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
@@ -45,11 +51,16 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="font-display text-white font-semibold text-base">Quick Links</h4>
-          <ul className="mt-5 space-y-3">
+          <h4 className="font-display text-white font-semibold text-base">
+            Quick Links
+          </h4>
+          <ul className="mt-4 space-y-3">
             {footerLinks.quickLinks.map((link) => (
               <li key={link.href}>
-                <a href={link.href} className="text-sm hover:text-gold-light transition-colors">
+                <a
+                  href={link.href}
+                  className="text-sm hover:text-gold-light transition-colors"
+                >
                   {link.label}
                 </a>
               </li>
@@ -58,11 +69,16 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="font-display text-white font-semibold text-base">Customer Service</h4>
-          <ul className="mt-5 space-y-3">
+          <h4 className="font-display text-white font-semibold text-base">
+            Customer Service
+          </h4>
+          <ul className="mt-4 space-y-3">
             {footerLinks.customerService.map((link) => (
               <li key={link.label}>
-                <a href={link.href} className="text-sm hover:text-gold-light transition-colors">
+                <a
+                  href={link.href}
+                  className="text-sm hover:text-gold-light transition-colors"
+                >
                   {link.label}
                 </a>
               </li>
@@ -71,8 +87,10 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="font-display text-white font-semibold text-base">Contact Us</h4>
-          <ul className="mt-5 space-y-4">
+          <h4 className="font-display text-white font-semibold text-base">
+            Contact Us
+          </h4>
+          <ul className="mt-4 space-y-4">
             <li className="flex items-center gap-3 text-sm">
               <FiPhone className="shrink-0 text-gold" />
               +1 (212) 555-7890

@@ -50,12 +50,17 @@ export default function Checkout() {
             className="card-surface max-w-lg mx-auto p-10 text-center flex flex-col items-center gap-4"
           >
             <FiCheckCircle className="text-5xl text-gold" />
-            <h1 className="section-heading text-2xl sm:text-3xl">Order Placed!</h1>
+            <h1 className="section-heading text-2xl sm:text-3xl">
+              Order Placed!
+            </h1>
             <p className="text-ink/60 text-sm">
               Thank you, {form.fullName || "valued customer"}. Your order{" "}
               <span className="font-semibold text-wine">{orderNumber}</span> has
               been confirmed and a receipt has been sent to{" "}
-              <span className="font-semibold text-wine">{form.email || "your email"}</span>.
+              <span className="font-semibold text-wine">
+                {form.email || "your email"}
+              </span>
+              .
             </p>
             <div className="flex gap-3 mt-4">
               <Link to="/shop" className="btn-outline-dark">
@@ -77,7 +82,9 @@ export default function Checkout() {
         <div className="container-px mx-auto max-w-8xl">
           <div className="card-surface max-w-lg mx-auto p-10 text-center flex flex-col items-center gap-4">
             <HiShoppingBag className="text-5xl text-wine/20" />
-            <h1 className="section-heading text-2xl sm:text-3xl">Your cart is empty</h1>
+            <h1 className="section-heading text-2xl sm:text-3xl">
+              Your cart is empty
+            </h1>
             <p className="text-ink/60 text-sm">
               Add a few pieces to your cart before proceeding to checkout.
             </p>
@@ -101,7 +108,10 @@ export default function Checkout() {
 
         <div className="grid lg:grid-cols-[1fr_400px] gap-10">
           {/* Shipping / payment form */}
-          <form onSubmit={handleSubmit} className="card-surface p-6 sm:p-8 space-y-8">
+          <form
+            onSubmit={handleSubmit}
+            className="card-surface p-6 sm:p-8 space-y-8"
+          >
             <div>
               <h2 className="font-display font-semibold text-lg text-wine mb-4">
                 Shipping Details
@@ -218,7 +228,7 @@ export default function Checkout() {
               ))}
             </div>
 
-            <div className="mt-6 pt-6 border-t border-wine/10 space-y-2 text-sm">
+            <div className="mt-4 pt-6 border-t border-wine/10 space-y-2 text-sm">
               <div className="flex justify-between text-ink/60">
                 <span>Subtotal</span>
                 <span className="text-wine font-medium">
@@ -245,7 +255,15 @@ export default function Checkout() {
   );
 }
 
-function Field({ label, name, value, onChange, type = "text", required, className = "" }) {
+function Field({
+  label,
+  name,
+  value,
+  onChange,
+  type = "text",
+  required,
+  className = "",
+}) {
   return (
     <label className={`flex flex-col gap-1.5 text-sm ${className}`}>
       <span className="text-ink/60 font-medium">{label}</span>

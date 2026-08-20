@@ -25,7 +25,7 @@ export default function Testimonials() {
           >
             Real feedback from customers across Jaffna.
           </p>
-          <div className="mt-6 flex justify-center">
+          <div className="mt-4 flex justify-center">
             <button
               className="inline-flex items-center gap-2 rounded-full px-6 py-2.5 text-xs sm:text-sm font-bold text-white shadow-card hover:scale-105 active:scale-95 transition-transform"
               style={{ background: "#7A2436" }}

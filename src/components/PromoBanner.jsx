@@ -25,10 +25,10 @@ export default function PromoBanner({ data, reverse = false }) {
             <h2 className="mt-4 text-3xl sm:text-4xl font-semibold text-white leading-tight text-balance">
               {data.heading}
             </h2>
-            <p className="mt-5 text-white/65 leading-relaxed">
+            <p className="mt-4 text-white/65 leading-relaxed">
               {data.paragraph}
             </p>
-            <a href="#collections" className="btn-gold mt-8">
+            <a href="#collections" className="btn-gold mt-4">
               {data.cta}
               <FiArrowRight />
             </a>

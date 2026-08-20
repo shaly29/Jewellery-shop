@@ -22,10 +22,10 @@ h1, h2, h3, h4 {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #F8ECE6;
+  background: #FBEEF1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #C9A253;
+  background: #d5aa5c;
   border-radius: 999px;
 }
 
@@ -40,7 +40,7 @@ h1, h2, h3, h4 {
 
 .eyebrow {
   @apply inline-flex items-center gap-2 text-xs sm:text-sm font-medium tracking-[0.3em] uppercase;
-  color: #A8813C;
+  color: #B98A3C;
 }
 
   .btn-gold {
